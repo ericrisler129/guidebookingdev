@@ -1,0 +1,63 @@
+body, * {
+    font-family: 'Jost';
+}
+
+html {
+    font-size: 16px;
+}
+
+.vue-dropzone .dz-progress {
+    display: none;
+}
+
+.vue-dropzone .dz-message {
+    margin: 16px;
+}
+
+.subtitle {
+    color: #314b5f;
+}
+
+.vue-dropzone.dropzone {
+    background-color: #c3c7ca;
+    display: inline-flex;
+    max-width: 226px;
+    height: 226px;
+    padding: 0;
+}
+
+.dropzone .dz-preview .dz-progress {
+    display: none;
+}
+
+.white-bg {
+    background: white;
+}
+
+.grey-bg {
+    background: #F4F4F4;
+}
+
+.font-style-1 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.new-container {
+    @media (min-width: 1440px) {
+        max-width: 1194px;
+    }
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.page-wrapper {
+    margin-top: 85px;
+}
+
+.rounded-8 {
+    border-radius: 8px!important;
+}
